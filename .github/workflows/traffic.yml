@@ -3,7 +3,7 @@ on:
   workflow_dispatch: {}
   schedule:
     # https://crontab.guru/examples.html
-     - cron: "*/5 * * * *" # every 5 minutes
+     #- cron: "*/5 * * * *" # every 5 minutes
 
 jobs:
   gen-traffic:
